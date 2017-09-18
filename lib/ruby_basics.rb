@@ -7,7 +7,8 @@ def assign_variable(value)
 end
 
 def argue
-
+  input = gets.strip
+  input
 end
 
 def greeting
