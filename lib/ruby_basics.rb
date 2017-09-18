@@ -6,9 +6,8 @@ def assign_variable(value)
   value = "#{value}"
 end
 
-def argue
-  input = gets.strip
-  input
+def argue(argument)
+  return argument
 end
 
 def greeting
