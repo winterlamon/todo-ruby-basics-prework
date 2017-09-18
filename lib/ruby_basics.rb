@@ -6,12 +6,12 @@ def assign_variable(value)
   value = "#{value}"
 end
 
-def argue(argument)
-  return argument
+def argue(phrase)
+  return phrase
 end
 
-def greeting(phrase, person)
-  puts "#{phrase} #{person}!"
+def greeting(salutation, name)
+  puts "#{salutation} #{name}!"
 end
 
 def return_a_value
